@@ -2,9 +2,9 @@
 var typed = new Typed('.typing', {
   strings: [
     '',
-    'make education easier',
-    'help people with no facilities afford schooling',
-    'make you aware',
+    'make education easier.',
+    'help people with no facilities afford schooling.',
+    'make you aware.',
     'help you while learning.',
   ],
   typeSpeed: 100,
