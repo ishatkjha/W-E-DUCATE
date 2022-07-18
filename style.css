@@ -687,6 +687,10 @@ h3.my-profession{
     display: block;
 }
 
+#abc{
+    color: var(--skin-color);
+}
+
 /* Contact */
 
 .contact-title {
