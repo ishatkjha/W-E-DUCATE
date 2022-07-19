@@ -16,6 +16,15 @@ body.dark{
     --text-black-700: #e9e9e9;
 }
 
+.hero-btn {
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-items: center;
+    margin-right: 30%;
+    margin: 0% 0% 50%;
+    cursor: pointer;
+}
+
 #logo{
     width: 90%;
     height: 100%;
@@ -360,32 +369,11 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 
-.home-img::after{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
-}
 
-.home-img::before{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: -40px;
-}
 
 .home .home-img img{
-    margin: auto;
-    border-radius: 5px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 /* About */
@@ -532,7 +520,7 @@ h3.my-profession{
 .about .about-content .timeline-item{
     position: relative;
     padding-left: 37px;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
 
 .about .about-content .timeline-item:last-child{
@@ -600,9 +588,9 @@ h3.my-profession{
 
 .service .service-item .service-item-inner{
     background-color: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50); 
+    border: 1px solid var(--bg-black-50);
     border-radius: 10px;
-    padding: 30px 15px;  
+    padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -669,7 +657,7 @@ h3.my-profession{
 }
 
 .portfolio .portfolio-item {
-    flex: 0 0 33.33333333333%; 
+    flex: 0 0 33.33333333333%;
     max-width: 33.333333333333333;
     margin-bottom: 30px;
 }
@@ -819,32 +807,9 @@ h3.my-profession{
 
 @media (max-width:991px) {
 
-    .home-img img{
-       width: 200%;
-       max-width: 400px;
-       height: auto;
-    }
-
-    .home-img::after{
-        content: '';
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        border-bottom: 10px solid var(--skin-color);
-        border-right: 10px solid var(--skin-color);
-        right: -130px;
-        bottom: -40px;
-    }
-    
-    .home-img::before{
-        content: '';
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        border-top: 10px solid var(--skin-color);
-        border-left: 10px solid var(--skin-color);
-        left: -20px;
-        top: -40px;
+    .home-img img{      
+        width: fit-content;
+        height: fit-content;
     }
 
     .contact .contact-info-item,
